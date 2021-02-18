@@ -1,10 +1,10 @@
 <?php
 
-namespace Mediawiki\Flow\Api\Service;
+namespace Addwiki\Mediawiki\Ext\Flow\Api\Service;
 
-use Mediawiki\Api\MediawikiApi;
-use Mediawiki\Api\SimpleRequest;
-use Mediawiki\Flow\Api\DataModel\Topic;
+use Addwiki\Mediawiki\Api\Client\MediawikiApi;
+use Addwiki\Mediawiki\Api\Client\SimpleRequest;
+use Addwiki\Mediawiki\Ext\Flow\DataModel\Topic;
 
 class TopicCreator {
 
@@ -14,7 +14,7 @@ class TopicCreator {
 	private $api;
 
 	/**
-	 * @param MediawikiApi $api
+	 * @param \Addwiki\Mediawiki\Api\Client\MediawikiApi $api
 	 */
 	public function __construct( MediawikiApi $api ) {
 		$this->api = $api;
