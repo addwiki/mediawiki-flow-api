@@ -1,3 +1,3 @@
-# mediawiki-flow-api
+# DEPRECATED
 
-[![GitHub issue custom search in repo](https://img.shields.io/github/issues-search/addwiki/addwiki?label=issues&query=is%3Aissue%20is%3Aopen%20%5Bmediawiki-flow-api%5D)](https://github.com/addwiki/addwiki/issues?q=is%3Aissue+is%3Aopen+%5Bmediawiki-flow-api%5D+)
+All of the `addwiki` libraried are now contained within https://github.com/addshore/addwiki
